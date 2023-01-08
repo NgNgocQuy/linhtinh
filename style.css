@@ -1,6 +1,14 @@
+:root {
+  --main-link-style: #2e2e2e;
+  --span-color: #495057;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+span {
+  color: var(--span-color);
 }
 body {
   box-sizing: border-box;
@@ -14,4 +22,11 @@ body {
 }
 .icon-style::before {
   /* margin-top: 1rem; */
+}
+
+.__style-link {
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  color: var(--main-link-style);
 }
