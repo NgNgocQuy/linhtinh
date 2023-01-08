@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+.__bg-primary-gray {
+  background-color: rgba(128, 128, 128, 0.137);
+}
+
+.bg-header {
+  background-image: url(./ganyu-with-qiqi-genshin-impact-anime-video-game-wallpaper-2560x1440_51.jpg);
+}
+.icon-style::before {
+  /* margin-top: 1rem; */
+}
